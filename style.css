@@ -14,6 +14,7 @@ body
     justify-content: center;
     margin: 0;
     height: 100vh;
+    overflow: hidden;
 }
 
 .joke
@@ -40,7 +41,8 @@ p{
     cursor: pointer;
     font-family: inherit;
     font-size: 14px;
-    background-color: #FFBD9B;
+    background-color: #0A1D37;
+    color: white;
     padding: 5px;
     border-radius: 10px;
     border: 2px solid  black;
@@ -48,6 +50,8 @@ p{
 }
 
 button:hover
-{
+{   
     outline: none;
+    background-color: #FFEEDB;
+    color: black;
 }
