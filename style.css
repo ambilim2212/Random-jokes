@@ -49,9 +49,13 @@ p{
 
 }
 
+button:active
+{
+    background-color: #FFEEDB;
+    color: black;
+}
 button:hover
 {   
     outline: none;
-    background-color: #FFEEDB;
-    color: black;
+    
 }
